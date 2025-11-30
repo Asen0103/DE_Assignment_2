@@ -10,7 +10,7 @@ def kafka_python_producer_sync(producer, msg: str, topic: str):
 
 
 def success(metadata):
-    print(metadata.topic, metadata.partiotion)
+    print(metadata.topic, metadata.partition)
 
 
 def error(exception):
