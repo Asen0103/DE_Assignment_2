@@ -27,12 +27,10 @@ def kafka_python_producer_async(producer, msg: str, topic: str):
 
 if __name__ == "__main__":
     # 1) Point this to YOUR VM’s external IP
-    # Example: "34.16.40.171:9092"
-    BOOTSTRAP_SERVERS = "YOUR_VM_EXTERNAL_IP:9092"
+    BOOTSTRAP_SERVERS = "35.202.186.2:9092"
 
     # 2) Path to the used-cars CSV on YOUR LAPTOP
-    # (you can also use a smaller sampled file)
-    CSV_PATH = r"C:\path\to\vehicles.csv"
+    CSV_PATH = r""C:\Users\User\Downloads\vehicles.csv\vehicles.csv""
 
     TOPIC = "used_cars_stream"
 
