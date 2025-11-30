@@ -29,3 +29,4 @@ if __name__ == '__main__':
                              consumer_timeout_ms=10000)
     print(consumer.topics())
     read_from_topic(consumer, 'car_listings')
+    
